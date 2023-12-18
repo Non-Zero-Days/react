@@ -221,8 +221,6 @@ export const DisplayApiData : FC = () => {
 }
 ```
 
-**WIP**
-
 3. useContext:
 
 This hook is used to read and subscribe to a value. Although not required, it is commonly used alongside Context.Provider to offer 
