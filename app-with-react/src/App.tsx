@@ -4,6 +4,9 @@ import './App.css';
 import ComponentTest from './component-test';
 import { Counter } from './counter';
 import { DisplayApiData } from './display-api-data';
+import ProviderComponent from './context-demo';
+import ReferenceDemo from './reference-demo';
+import ReducerCounter from './reducer-counter';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <ComponentTest displayText="banana"/>
       <Counter/>
       <DisplayApiData/>
+      <ProviderComponent/>
+      <ReferenceDemo/>
+      <ReducerCounter/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
